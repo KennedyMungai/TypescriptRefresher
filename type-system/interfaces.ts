@@ -12,12 +12,7 @@ const currentMovie = {
     genre: ['action', 'adventure', 'drama']
 }
 
-const logMovie = (movie: {
-    title: string,
-    date: Date,
-    rating: Number,
-    genre: string[]
-}):void => {
+const logMovie = (movie: Movie):void => {
     console.log(`Title: ${movie.title}`)
     console.log(`Date: ${movie.date}`)
     console.log(`Rating: ${movie.rating}`)
