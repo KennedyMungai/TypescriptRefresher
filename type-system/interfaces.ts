@@ -1,3 +1,10 @@
+interface Movie {
+    title: string,
+    date: Date,
+    rating: number,
+    genre: string[]
+}
+
 const currentMovie = {
     title: "Dune",
     date: new Date(2021, 9, 24),
