@@ -25,10 +25,10 @@ const earthquake = {
 }
 
 
-const logVelocity = (earthquake:{date: Date; velocity: number}):void => 
+const logVelocity = ({date, velocity}:{date: Date; velocity: number}):void => 
 {
-    console.log(earthquake.date)
-    console.log(earthquake.velocity)
+    console.log(date)
+    console.log(velocity)
 }
 
 logVelocity(earthquake)
