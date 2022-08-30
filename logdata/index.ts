@@ -17,17 +17,18 @@ const url = "https://jsonplaceholder.typicode.com/posts/1"
 //     reprehenderit molestiae ut ut quas totam
 //     nostrum rerum est autem sunt rem eveniet architecto
 
-axios.get(url)
-    .then(res => {
-        const post = res.data as Post
+axios.get(url).then(res => {
+    const post = res.data as Post
 
-        const id=post.userId
-        const header=post.title
-        const content=post.body
+    const id=post.userId
+    const header=post.title
+    const content=post.body
 
-        console.log(`
-            User Id is ${id}
-            Title of post: ${header}
-            The content inside the post is: ${content}
-        `)
-    })
+    console.log(`
+        User Id is ${id}
+        Title of post: ${header}
+        The content inside the post is: ${content}
+    `)
+})
+
+
