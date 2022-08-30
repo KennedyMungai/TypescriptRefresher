@@ -2,6 +2,7 @@ import axios from 'axios'
 
 const url = "https://jsonplaceholder.typicode.com/posts/1"
 
+// The following series of logic gets data from an API endpoint
 axios.get(url)
     .then(res => {
         const post = res.data
