@@ -1,13 +1,13 @@
-const now = new Date()
-now.getFullYear()
+// const now = new Date()
+// now.getFullYear()
 
-const track = {
-    duration: 120
-}
+// const track = {
+//     duration: 120
+// }
 
 
-class Planet {
+// class Planet {
 
-}
+// }
 
-const earth = new Planet()
+// const earth = new Planet()
