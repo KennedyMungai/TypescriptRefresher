@@ -6,9 +6,9 @@ axios.get(url)
     .then(res => {
         const post = res.data
 
-        const id=post.userID
-        const header=post.header
-        const content=post.content
+        const id=post.userId
+        const header=post.title
+        const content=post.body
 
         console.log(`
             User Id is ${id}
