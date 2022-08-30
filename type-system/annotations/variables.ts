@@ -34,19 +34,24 @@
 
 
 // Functions that return the 'any' type
-const place='{"lat":45, "lon":-70}'
-const newLocation:{lat:number, lon:number}=JSON.parse(place)
-console.log(newLocation)    //{"lat":45, "lon":-70}
+// const place='{"lat":45, "lon":-70}'
+// const newLocation:{lat:number, lon:number}=JSON.parse(place)
+// console.log(newLocation)    //{"lat":45, "lon":-70}
 
 
 // Initialize a variable later\
-const forecast = ['sunny', 'rain', 'wind', 'cloudy']
-let isSunny: boolean=false;
+// const forecast = ['sunny', 'rain', 'wind', 'cloudy']
+// let isSunny: boolean=false;
 
-for(let i=0; i < forecast.length; i++)
-{
-    if(forecast[i] === 'sunny')
-    {
-        isSunny=true
-    }
-}
+// for(let i=0; i < forecast.length; i++)
+// {
+//     if(forecast[i] === 'sunny')
+//     {
+//         isSunny=true
+//     }
+// }
+
+
+// The type cannot be inferred correctly
+// let temperatures = [8,5,-2]
+// let subzero=false
