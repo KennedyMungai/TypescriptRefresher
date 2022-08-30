@@ -1,8 +1,8 @@
 import axios from 'axios'
 
 interface Post {
-    user_id:number,
-    title:string,
+    user_id:number
+    title:string
     body:string
 }
 
