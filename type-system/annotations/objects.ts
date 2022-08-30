@@ -12,4 +12,6 @@ const client = {
 }
 
 
-const {id}: {id: string} = client
+const {id, age}: {id: string, age: number} = client
+
+const {condition: {mass,height}}: {condition: {mass: number, height: number}} = client
