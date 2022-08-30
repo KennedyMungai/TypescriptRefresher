@@ -37,3 +37,16 @@
 const place='{"lat":45, "lon":-70}'
 const newLocation:{lat:number, lon:number}=JSON.parse(place)
 console.log(newLocation)    //{"lat":45, "lon":-70}
+
+
+// Initialize a variable later\
+const forecast = ['sunny', 'rain', 'wind', 'cloudy']
+let isSunny;
+
+for(let i=0; i < forecast.length; i++)
+{
+    if(forecast[i] === 'sunny')
+    {
+        isSunny=true
+    }
+}
