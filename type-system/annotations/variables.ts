@@ -15,3 +15,10 @@ class Phone {
 }
 
 let phone1: Phone = new Phone()
+
+
+// Object Literals
+let product : {name:string,price:number} = {
+    name:'pen',
+    price: 15
+}
