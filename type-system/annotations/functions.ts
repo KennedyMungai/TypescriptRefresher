@@ -3,3 +3,7 @@ const multiply = (x:number, y:number): number => {
 }
 
 console.log(multiply(8,4))
+
+function sum(x:number, y:number): number {
+    return x+y
+}
