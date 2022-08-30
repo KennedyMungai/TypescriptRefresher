@@ -41,7 +41,7 @@ console.log(newLocation)    //{"lat":45, "lon":-70}
 
 // Initialize a variable later\
 const forecast = ['sunny', 'rain', 'wind', 'cloudy']
-let isSunny;
+let isSunny: boolean;
 
 for(let i=0; i < forecast.length; i++)
 {
