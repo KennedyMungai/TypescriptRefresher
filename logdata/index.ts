@@ -1,5 +1,11 @@
 import axios from 'axios'
 
+interface Post {
+    user_id:number,
+    title:string,
+    body:string
+}
+
 const url = "https://jsonplaceholder.typicode.com/posts/1"
 
 // The following series of logic gets data from an API endpoint
