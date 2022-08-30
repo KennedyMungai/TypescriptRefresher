@@ -10,3 +10,6 @@ const client = {
         this.BMI = mass/(height * height)
     }
 }
+
+
+const {id} = client
