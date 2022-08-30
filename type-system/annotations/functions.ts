@@ -17,3 +17,9 @@ const printer = (content:string): void => {
 const throwError = (content: string): never => {
     throw new Error(content)
 }
+
+
+const earthquake = {
+    date: new Date(),
+    velocity: 4.5
+}
