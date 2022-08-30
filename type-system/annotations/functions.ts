@@ -32,3 +32,10 @@ const logVelocity = (earthquake:{date: Date; velocity: number}):void =>
 }
 
 logVelocity(earthquake)
+
+
+// ES2015 syntax
+const logVelocity2 = ({date, velocity}) => {
+    console.log(earthquake.date)
+    console.log(earthquake.velocity)
+}
