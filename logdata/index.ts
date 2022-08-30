@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 interface Post {
-    user_id:number
+    userId:number
     title:string
     body:string
 }
@@ -19,7 +19,7 @@ const url = "https://jsonplaceholder.typicode.com/posts/1"
 
 axios.get(url)
     .then(res => {
-        const post = res.data
+        const post = res.data as Post
 
         const id=post.userId
         const header=post.title
