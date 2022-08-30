@@ -14,15 +14,22 @@ const currentMovie: Movie = {
     genre: ['action', 'adventure', 'drama'],
 
     report(): string{
-        return `Title: ${this.title}`
+        return `
+            Title: ${this.title}
+            Date: ${this.date}
+            Rating: ${this.rating}
+            Genre: ${this.genre.join(', ')}    
+        `
     }
 }
 
 const logMovie = (movie: Movie):void => {
-    console.log(`Title: ${movie.title}`)
-    console.log(`Date: ${movie.date}`)
-    console.log(`Rating: ${movie.rating}`)
-    console.log(`Genre: ${movie.genre}`)
+    // console.log(`Title: ${movie.title}`)
+    // console.log(`Date: ${movie.date}`)
+    // console.log(`Rating: ${movie.rating}`)
+    // console.log(`Genre: ${movie.genre}`)
+
+    console.log(movie.report())
 }
 
 logMovie(currentMovie)
