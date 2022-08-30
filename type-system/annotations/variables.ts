@@ -22,3 +22,9 @@ let product : {name:string,price:number} = {
     name:'pen',
     price: 15
 }
+
+
+// Functions
+const printer = (content:string) => {
+    console.log(content)
+}
