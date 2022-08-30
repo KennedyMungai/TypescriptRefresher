@@ -7,3 +7,4 @@ const track = {
 type Track = [string, boolean, number]
 
 const track1: Track = ['rock', false, 120]
+const track2: Track = ["Hip Hop", false, 150]
