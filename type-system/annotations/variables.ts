@@ -11,5 +11,7 @@ let planets:string[] = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn'
 
 // Classes
 class Phone {
-    
+
 }
+
+let phone1: Phone = new Phone()
