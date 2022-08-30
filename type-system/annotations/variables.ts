@@ -25,6 +25,6 @@ let product : {name:string,price:number} = {
 
 
 // Functions
-const printer = (content:string) => {
+const printer: (content:string) => void = (content:string) => {
     console.log(content)
 }
