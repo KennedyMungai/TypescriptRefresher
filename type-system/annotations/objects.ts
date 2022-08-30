@@ -12,4 +12,4 @@ const client = {
 }
 
 
-const {id} = client
+const {id}: {id: string} = client
