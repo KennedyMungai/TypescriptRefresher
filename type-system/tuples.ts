@@ -4,4 +4,6 @@ const track = {
     duration: 120
 };
 
-const track1: [string, boolean, number] = ['rock', false, 120]
+type Track = [string, boolean, number]
+
+const track1: Track = ['rock', false, 120]
