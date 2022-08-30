@@ -7,3 +7,9 @@ let today: Date=new Date(2022, 08, 30)
 
 
 let planets:string[] = ['mercury', 'venus', 'earth', 'mars', 'jupiter', 'saturn', 'uranus', 'neptune', 'pluto']
+
+
+// Classes
+class Phone {
+    
+}
