@@ -28,7 +28,7 @@ axios.get(url).then(res => {
 })
 
 
-const printPost = (id, header, content) => {
+const printPost = (id:number, header:string, content:string) => {
     console.log(`
         User Id is ${id}
         Title of post: ${header}
