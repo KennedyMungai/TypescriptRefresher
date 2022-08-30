@@ -24,11 +24,14 @@ axios.get(url).then(res => {
     const header=post.title
     const content=post.body
 
+    printPost(id, header, content)
+})
+
+
+const printPost = (id, header, content) => {
     console.log(`
         User Id is ${id}
         Title of post: ${header}
         The content inside the post is: ${content}
     `)
-})
-
-
+}
