@@ -11,6 +11,3 @@ class Planet {
 }
 
 const earth = new Planet()
-{
-
-}
