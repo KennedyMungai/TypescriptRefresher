@@ -1,3 +1,7 @@
+import { Destination } from "./Destination"
+
+
+
 const createDiv = function () {
     const div = document.createElement('div')
     const statement = document.createTextNode('Cargo Tracking App')
