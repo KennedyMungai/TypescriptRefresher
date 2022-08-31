@@ -1,6 +1,6 @@
 import { faker } from "@faker-js/faker";
 
-class Destination {
+export class Destination {
     constructor() {
         this.receiver=faker.name.firstName()
         this.location={
