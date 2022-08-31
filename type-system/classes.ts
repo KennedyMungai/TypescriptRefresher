@@ -32,6 +32,6 @@ const mechanic1 = new Mechanic();
 // employee1.startShift()
 // employee1.endShift()
 
-mechanic1.gotoWork()
-mechanic1.endShift()
+// mechanic1.gotoWork()
+// mechanic1.endShift()
 console.log(mechanic1.age)
