@@ -40,3 +40,4 @@ const logMovie = (movie: Movie):void => {
 }
 
 logMovie(currentMovie)
+logMovie(track)
