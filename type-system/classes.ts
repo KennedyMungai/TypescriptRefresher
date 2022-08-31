@@ -10,11 +10,11 @@ class Employee {
 
 
 class Mechanic extends Employee {
-    private startShift(): void {
+    public startShift(): void {
         console.log("Mechanic has started the shift")
     }
 
-    endShift(): void {
+    public endShift(): void {
         console.log("Mechanic has ended the shift")
     }
 
