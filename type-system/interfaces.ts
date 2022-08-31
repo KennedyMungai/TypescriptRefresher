@@ -23,6 +23,12 @@ const currentMovie: Movie = {
     }
 }
 
+const track = {
+    genre: 'Rock',
+    exclusive: false,
+    duration: 120
+}
+
 const logMovie = (movie: Movie):void => {
     console.log(movie.report())
 }
