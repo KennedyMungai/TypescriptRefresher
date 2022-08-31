@@ -1,27 +1,5 @@
-/*
- * ATTENTION: The "eval" devtool has been used (maybe by default in mode: "development").
- * This devtool is neither made for production nor for readable output files.
- * It uses "eval()" calls to create a separate source file in the browser devtools.
- * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
- * or disable the default devtool with "devtool: false".
- * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
- */
 /******/ (() => { // webpackBootstrap
 /******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({
-
-/***/ "./src/index.ts":
-/*!**********************!*\
-  !*** ./src/index.ts ***!
-  \**********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './Destination'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n\n\n\nconst destination=new Object(function webpackMissingModule() { var e = new Error(\"Cannot find module './Destination'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }())()\nconsole.log(destination)\n\n//# sourceURL=webpack://simpletypescriptapp/./src/index.ts?");
-
-/***/ })
-
-/******/ 	});
-/************************************************************************/
 /******/ 	// The require scope
 /******/ 	var __webpack_require__ = {};
 /******/ 	
@@ -38,12 +16,20 @@ eval("__webpack_require__.r(__webpack_exports__);\nObject(function webpackMissin
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = {};
-/******/ 	__webpack_modules__["./src/index.ts"](0, __webpack_exports__, __webpack_require__);
-/******/ 	
+var __webpack_exports__ = {};
+/*!**********************!*\
+  !*** ./src/index.ts ***!
+  \**********************/
+__webpack_require__.r(__webpack_exports__);
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './Cargo'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+Object(function webpackMissingModule() { var e = new Error("Cannot find module './Destination'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
+
+var destination = new Object(function webpackMissingModule() { var e = new Error("Cannot find module './Destination'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())();
+console.log(destination);
+var cargo = new Object(function webpackMissingModule() { var e = new Error("Cannot find module './Cargo'"); e.code = 'MODULE_NOT_FOUND'; throw e; }())();
+console.log(cargo);
+
 /******/ })()
 ;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYnVuZGxlLmpzIiwibWFwcGluZ3MiOiI7O1VBQUE7VUFDQTs7Ozs7V0NEQTtXQUNBO1dBQ0E7V0FDQSx1REFBdUQsaUJBQWlCO1dBQ3hFO1dBQ0EsZ0RBQWdELGFBQWE7V0FDN0Q7Ozs7Ozs7Ozs7O0FDTitCO0FBQ1k7QUFHM0MsSUFBTSxXQUFXLEdBQUMsSUFBSSw0SUFBVyxFQUFFO0FBQ25DLE9BQU8sQ0FBQyxHQUFHLENBQUMsV0FBVyxDQUFDO0FBRXhCLElBQU0sS0FBSyxHQUFDLElBQUksc0lBQUssRUFBRTtBQUN2QixPQUFPLENBQUMsR0FBRyxDQUFDLEtBQUssQ0FBQyIsInNvdXJjZXMiOlsid2VicGFjazovL3NpbXBsZXR5cGVzY3JpcHRhcHAvd2VicGFjay9ib290c3RyYXAiLCJ3ZWJwYWNrOi8vc2ltcGxldHlwZXNjcmlwdGFwcC93ZWJwYWNrL3J1bnRpbWUvbWFrZSBuYW1lc3BhY2Ugb2JqZWN0Iiwid2VicGFjazovL3NpbXBsZXR5cGVzY3JpcHRhcHAvLi9zcmMvaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gVGhlIHJlcXVpcmUgc2NvcGVcbnZhciBfX3dlYnBhY2tfcmVxdWlyZV9fID0ge307XG5cbiIsIi8vIGRlZmluZSBfX2VzTW9kdWxlIG9uIGV4cG9ydHNcbl9fd2VicGFja19yZXF1aXJlX18uciA9IChleHBvcnRzKSA9PiB7XG5cdGlmKHR5cGVvZiBTeW1ib2wgIT09ICd1bmRlZmluZWQnICYmIFN5bWJvbC50b1N0cmluZ1RhZykge1xuXHRcdE9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCBTeW1ib2wudG9TdHJpbmdUYWcsIHsgdmFsdWU6ICdNb2R1bGUnIH0pO1xuXHR9XG5cdE9iamVjdC5kZWZpbmVQcm9wZXJ0eShleHBvcnRzLCAnX19lc01vZHVsZScsIHsgdmFsdWU6IHRydWUgfSk7XG59OyIsImltcG9ydCB7IENhcmdvIH0gZnJvbSBcIi4vQ2FyZ29cIlxuaW1wb3J0IHsgRGVzdGluYXRpb24gfSBmcm9tIFwiLi9EZXN0aW5hdGlvblwiXG5cblxuY29uc3QgZGVzdGluYXRpb249bmV3IERlc3RpbmF0aW9uKClcbmNvbnNvbGUubG9nKGRlc3RpbmF0aW9uKVxuXG5jb25zdCBjYXJnbz1uZXcgQ2FyZ28oKVxuY29uc29sZS5sb2coY2FyZ28pIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9
