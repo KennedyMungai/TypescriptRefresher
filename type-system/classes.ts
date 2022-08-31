@@ -8,6 +8,12 @@ class Employee {
     }
 }
 
+
+class Mechanic extends Employee {
+
+}
+
+
 const employee1 = new Employee();
 
 employee1.startShift()
