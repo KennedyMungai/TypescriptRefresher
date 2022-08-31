@@ -5,8 +5,8 @@ export class Cargo {
     constructor() {
         this.trackingId=faker.datatype.uuid()
         this.location={
-            lat: +faker.address.latitude,
-            lon: +faker.address.longitude
+            lat: +faker.address.latitude(),
+            lon: +faker.address.longitude()
         }
     }
 
