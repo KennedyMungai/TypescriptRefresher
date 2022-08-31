@@ -7,3 +7,5 @@ class Employee {
         console.log('Employee start shift')
     }
 }
+
+const employee1 = new Employee();
