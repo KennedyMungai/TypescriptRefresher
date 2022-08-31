@@ -5,3 +5,5 @@ class Employee {
 }
 
 const employee1 = new Employee();
+
+employee1.startShift()
