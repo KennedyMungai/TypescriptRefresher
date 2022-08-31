@@ -24,11 +24,6 @@ const currentMovie: Movie = {
 }
 
 const logMovie = (movie: Movie):void => {
-    // console.log(`Title: ${movie.title}`)
-    // console.log(`Date: ${movie.date}`)
-    // console.log(`Rating: ${movie.rating}`)
-    // console.log(`Genre: ${movie.genre}`)
-
     console.log(movie.report())
 }
 
