@@ -8,4 +8,6 @@ console.log(destination)
 const cargo=new Cargo()
 console.log(cargo)
 
-new google.maps.Map(document.getElementById("g-map"))
+new google.maps.Map(document.getElementById("g-map"), {
+    zoom: 1.6,
+})
