@@ -16,10 +16,10 @@ class Employee {
 
 
 class Mechanic extends Employee {
-    name: string
+    _name: string
     constructor(name: string, age: number) {
         super(age)
-        name=this.name
+        name=this._name
     }
 
     startShift(): void {
