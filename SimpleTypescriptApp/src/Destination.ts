@@ -1,6 +1,8 @@
+import { faker } from "@faker-js/faker";
+
 class Destination {
     constructor() {
-        
+
     }
     
     receiver: string
