@@ -2,7 +2,7 @@ import { faker } from "@faker-js/faker";
 
 class Destination {
     constructor() {
-
+        this.receiver=faker.name.firstName()
     }
     
     receiver: string
