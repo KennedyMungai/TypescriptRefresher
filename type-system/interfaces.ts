@@ -26,7 +26,13 @@ const currentMovie: Movie = {
 const track = {
     genre: 'Rock',
     exclusive: false,
-    duration: 120
+    duration: 120,
+
+    report(): string{
+        return `
+            Current song genre is ${this.genre},
+        `
+    }
 }
 
 const logMovie = (movie: Movie):void => {
