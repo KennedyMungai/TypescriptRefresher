@@ -15,6 +15,10 @@ class Mechanic extends Employee {
 
 
 const employee1 = new Employee();
+const mechanic1 = new Mechanic();
 
-employee1.startShift()
-employee1.endShift()
+// employee1.startShift()
+// employee1.endShift()
+
+mechanic1.startShift()
+mechanic1.endShift()
