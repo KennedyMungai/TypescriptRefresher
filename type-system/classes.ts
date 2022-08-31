@@ -1,6 +1,10 @@
 class Employee {
     age:number=41
 
+    constructor(age:number) {
+        this.age=age
+    }
+
     public startShift(): void {
         console.log('Employee start shift')
     }
@@ -26,8 +30,8 @@ class Mechanic extends Employee {
 }
 
 
-const employee1 = new Employee();
-const mechanic1 = new Mechanic();
+const employee1 = new Employee(50);
+const mechanic1 = new Mechanic(67);
 
 // employee1.startShift()
 // employee1.endShift()
