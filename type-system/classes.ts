@@ -1,4 +1,6 @@
 class Employee {
+    age:number=41
+
     public startShift(): void {
         console.log('Employee start shift')
     }
