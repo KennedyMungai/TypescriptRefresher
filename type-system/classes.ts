@@ -34,3 +34,4 @@ const mechanic1 = new Mechanic();
 
 mechanic1.gotoWork()
 mechanic1.endShift()
+console.log(mechanic1.age)
