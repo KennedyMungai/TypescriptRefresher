@@ -5,27 +5,23 @@ class Employee {
         this.age=age
     }
 
-    public startShift(): void {
+    protected startShift(): void {
         console.log('Employee start shift')
     }
 
-    public endShift():void {
+    protected endShift():void {
         console.log("The shift has ended")
     }
 }
 
 
 class Mechanic extends Employee {
-    public startShift(): void {
+    startShift(): void {
         console.log("Mechanic has started the shift")
     }
 
-    public endShift(): void {
+    endShift(): void {
         console.log("Mechanic has ended the shift")
-    }
-
-    public gotoWork():void {
-        this.startShift()
     }
 }
 
