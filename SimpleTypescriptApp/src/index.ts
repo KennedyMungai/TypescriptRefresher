@@ -3,7 +3,7 @@ import { Destination } from "./Destination"
 import { TrackingMap } from "./TrackingMap"
 
 
-new TrackingMap()
+new TrackingMap("g-map")
 
 const destination=new Destination()
 console.log(destination)
