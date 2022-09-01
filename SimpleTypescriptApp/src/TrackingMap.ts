@@ -15,7 +15,7 @@ export class TrackingMap {
 
     private googleMap: google.maps.Map
 
-    attachMarker() {
-        
+    attachMarker(entity: Destination | Cargo) {
+
     }
 }
