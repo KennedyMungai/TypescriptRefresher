@@ -3,7 +3,6 @@ import { Destination } from "./Destination"
 import { TrackingMap } from "./TrackingMap"
 
 
-
 const destination=new Destination()
 console.log(destination)
 
