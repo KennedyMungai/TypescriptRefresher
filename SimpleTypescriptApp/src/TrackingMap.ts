@@ -1,3 +1,7 @@
+import { Cargo } from "./Cargo"
+import { Destination } from "./Destination"
+
+
 export class TrackingMap {
     constructor(elementId: string) {
         this.googleMap=new google.maps.Map(document.getElementById(elementId), {
@@ -10,4 +14,6 @@ export class TrackingMap {
     }
 
     private googleMap: google.maps.Map
+
+    
 }
