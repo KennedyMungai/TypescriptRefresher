@@ -1,6 +1,6 @@
 export class TrackingMap {
-    constructor() {
-        this.googleMap=new google.maps.Map(document.getElementById("g-map"), {
+    constructor(elementId: string) {
+        this.googleMap=new google.maps.Map(document.getElementById(elementId), {
             zoom: 1.6,
             center: {
                 lat: 0,
