@@ -9,17 +9,19 @@ export class Destination implements Entity{
             lat: +faker.address.latitude(),
             lon: +faker.address.longitude()
         }
-    }
+    };
+
+    weight: number;
     
     receiver: string
     location: {
         lat: number,
         lon: number
-    }
+    };
 
     popupText():string {
         return `
             <h3>Receiver Name: ${this.receiver}</h3>
         `
-    }
+    };
 }
