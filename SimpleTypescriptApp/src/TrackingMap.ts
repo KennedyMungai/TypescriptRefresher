@@ -1,7 +1,3 @@
-import { Cargo } from "./Cargo"
-import { Destination } from "./Destination"
-
-
 interface Entity {
     location: {
         lat: number;
