@@ -14,4 +14,10 @@ export class Destination {
         lat: number,
         lon: number
     }
+
+    popupText():string {
+        return `
+            Receiver Name: ${this.receiver}
+        `
+    }
 }
