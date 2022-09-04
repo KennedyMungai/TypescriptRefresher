@@ -2,6 +2,14 @@ import { Cargo } from "./Cargo"
 import { Destination } from "./Destination"
 
 
+interface Entity {
+    location: {
+        lat: number;
+        lon: number;
+    }
+}
+
+
 export class TrackingMap {
     constructor(elementId: string) {
         this.googleMap=new google.maps.Map(document.getElementById(elementId), {
