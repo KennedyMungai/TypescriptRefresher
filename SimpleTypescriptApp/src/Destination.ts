@@ -17,7 +17,7 @@ export class Destination {
 
     popupText():string {
         return `
-            Receiver Name: ${this.receiver}
+            <h3>Receiver Name: ${this.receiver}</h3>
         `
     }
 }
