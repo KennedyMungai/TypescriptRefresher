@@ -33,7 +33,7 @@ export class TrackingMap {
         marker.addListener('click', () => 
             {
                 const popup = new google.maps.InfoWindow({
-                    content: 'Here I am',
+                    content: entity.popupText(),
                 });
                 popup.open(this.googleMap, marker);
             }
