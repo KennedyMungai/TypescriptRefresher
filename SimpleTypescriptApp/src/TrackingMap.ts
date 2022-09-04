@@ -1,4 +1,6 @@
 interface Entity {
+    popupText():string,
+
     location: {
         lat: number;
         lon: number;
