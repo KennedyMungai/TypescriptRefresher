@@ -1,6 +1,6 @@
 interface Entity {
     popupText():string,
-
+    weight: number,
     location: {
         lat: number;
         lon: number;
