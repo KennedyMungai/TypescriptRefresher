@@ -20,12 +20,14 @@ export class TrackingMap {
     private googleMap: google.maps.Map
 
     attachMarker(entity: Entity): void {
-        new google.maps.Marker({
+        const marker = new google.maps.Marker({
             map: this.googleMap,
             position: {
                 lat: entity.location.lat,
                 lng: entity.location.lon
             }
-        })
+        });
+
+        
     }
 }
