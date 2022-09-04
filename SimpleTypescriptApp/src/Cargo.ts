@@ -15,4 +15,10 @@ export class Cargo {
         lat: number,
         lon: number
     }
+
+    popupText():string {
+        return `
+            <h3>Cargo Name: ${this.trackingId}</h3>
+        `
+    }
 }
