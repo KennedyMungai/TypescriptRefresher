@@ -33,9 +33,8 @@ export class TrackingMap {
                 const popup = new google.maps.InfoWindow({
                     content: 'Here I am',
                 });
+                popup.open(this.googleMap, marker);
             }
         );
-
-        popup.open(this.googleMap, marker);
     }
 }
