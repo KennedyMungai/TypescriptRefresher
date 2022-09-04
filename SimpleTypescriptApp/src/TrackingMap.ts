@@ -23,7 +23,7 @@ export class TrackingMap {
 
     private googleMap: google.maps.Map
 
-    attachMarker(entity: Destination | Cargo): void {
+    attachMarker(entity: Entity): void {
         new google.maps.Marker({
             map: this.googleMap,
             position: {
