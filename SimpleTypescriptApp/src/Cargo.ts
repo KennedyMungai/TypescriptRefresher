@@ -1,4 +1,5 @@
 import { faker } from "@faker-js/faker";
+import { Entity } from './TrackingMap';
 
 
 export class Cargo {
