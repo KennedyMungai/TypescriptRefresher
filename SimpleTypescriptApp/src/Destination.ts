@@ -2,7 +2,7 @@ import { faker } from "@faker-js/faker";
 import { Entity } from './TrackingMap';
 
 
-export class Destination {
+export class Destination implements Entity{
     constructor() {
         this.receiver=faker.name.firstName()
         this.location={
