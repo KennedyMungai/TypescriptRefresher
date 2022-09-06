@@ -1,6 +1,8 @@
 class SortData {
-    constructor(public data: number[]) {
+    constructor(public data: number[]) {}
 
+    sort(): void {
+        
     }
 }
 
