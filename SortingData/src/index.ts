@@ -6,6 +6,9 @@ class SortData {
 
         for (let i = 0; i < length; i++) {
             for (let j = 0; j < length-i-1; j++) {
+                if (this.data instanceof Array) {
+                    
+                }
                 if (this.data[j] > this.data[j+i]) {
                     const temp=this.data[j];
                     this.data[j] = this.data[j+1];
