@@ -16,11 +16,10 @@ const years: number[] = dateArray.map((date) => {
 });
 
 
-const numbersData = new Numbers(years);
-numbersData.sort();
+// const numbersData = new Numbers(years);
+// numbersData.sort();
 
 
-// const stringsData=new Strings("Shapoopie");
-// const sortData = new SortData(stringsData);
-// sortData.sort();
-// console.log(stringsData.string);
+const stringsData=new Strings("Shapoopie");
+stringsData.sort();
+console.log(stringsData.string);
