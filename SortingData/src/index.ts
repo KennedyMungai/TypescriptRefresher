@@ -16,13 +16,11 @@ import { Strings } from "./Strings";
 // });
 
 
-// const numbersData = new Numbers(years);
-// const sortData = new SortData(numbersData);
+const numbersData = new Numbers(years);
+numbersData.sort();
+
+
+// const stringsData=new Strings("Shapoopie");
+// const sortData = new SortData(stringsData);
 // sortData.sort();
-// console.log(numbersData.number);
-
-
-const stringsData=new Strings("Shapoopie");
-const sortData = new SortData(stringsData);
-sortData.sort();
-console.log(stringsData.string);
+// console.log(stringsData.string);
