@@ -6,8 +6,6 @@ interface SortingProps {
 
 
 export class SortData {
-    constructor(public data: SortingProps) {}
-
     sort(): void {
         const {length}=this.data;
 
