@@ -1,3 +1,7 @@
+import { SortData } from "./SortData";
+
+
+
 export class Numbers {
     constructor(public number:number[]) {}
 
