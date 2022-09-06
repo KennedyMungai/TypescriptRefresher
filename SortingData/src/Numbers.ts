@@ -17,3 +17,4 @@ export class Numbers {
 }
 
 const number=new Numbers([5,3,8]);
+number.length;
