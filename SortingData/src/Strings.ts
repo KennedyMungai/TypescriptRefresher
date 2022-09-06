@@ -4,4 +4,8 @@ export class Strings {
     get length(): number {
         return this.string.length;
     }
+
+    compare(indexLeft:number, indexRight:number):boolean {
+        return (this.string[indexLeft].toLowerCase() > this.string[indexRight].toLowerCase());
+    }
 }
