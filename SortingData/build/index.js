@@ -16,3 +16,5 @@ const years = dateArray.map((date) => {
     return date.getFullYear();
 });
 const sortData = new SortData(years);
+sortData.sort();
+console.log(sortData.data);
