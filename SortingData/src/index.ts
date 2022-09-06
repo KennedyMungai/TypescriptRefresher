@@ -15,6 +15,7 @@ const years = dateArray.map((date) => {
 });
 
 
-const sortData = new SortData(years);
+const numbersData = new Numbers(years);
+const sortData = new SortData(numbersData);
 sortData.sort();
 console.log(sortData.data);
