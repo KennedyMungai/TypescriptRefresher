@@ -1,3 +1,7 @@
+import { SortData } from "./SortData";
+
+
+
 export class Strings {
     constructor(public string: string) { }
 
