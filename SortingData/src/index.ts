@@ -2,7 +2,7 @@ class SortData {
     constructor(public data: number[]) {}
 
     sort(): void {
-        
+        const length=this.data.length;
     }
 }
 
