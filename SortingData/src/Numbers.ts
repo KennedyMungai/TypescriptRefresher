@@ -5,7 +5,7 @@ export class Numbers {
         return this.number[indexLeft] > this.number[indexRight];
     }
 
-    swap(indexLeft:number, indexRight:number) {
-        
+    swap(indexLeft:number, indexRight:number): void {
+
     }
 }
