@@ -3,6 +3,8 @@ class SortData {
     constructor(data) {
         this.data = data;
     }
+    sort() {
+    }
 }
 const dateArray = [
     new Date(2010, 4, 21),
