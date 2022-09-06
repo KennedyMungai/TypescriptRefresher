@@ -20,3 +20,7 @@ import { Strings } from "./Strings";
 // const sortData = new SortData(numbersData);
 // sortData.sort();
 // console.log(numbersData.number);
+
+
+const stringsData=new Strings("Shapoopie");
+const sortData = new SortData(stringsData);
