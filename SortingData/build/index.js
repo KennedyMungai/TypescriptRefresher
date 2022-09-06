@@ -15,6 +15,9 @@ class SortData {
                         this.data[j + 1] = temp;
                     }
                 }
+                // String
+                if (typeof this.data === 'string') {
+                }
             }
         }
     }
