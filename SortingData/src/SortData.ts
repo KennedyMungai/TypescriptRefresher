@@ -1,4 +1,4 @@
-class SortData {
+export class SortData {
     constructor(public data: number[] | string) {}
 
     sort(): void {
