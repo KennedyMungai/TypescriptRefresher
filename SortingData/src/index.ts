@@ -24,3 +24,5 @@ import { Strings } from "./Strings";
 
 const stringsData=new Strings("Shapoopie");
 const sortData = new SortData(stringsData);
+sortData.sort();
+console.log(stringsData.string);
