@@ -8,4 +8,8 @@ export class Strings {
     compare(indexLeft: number, indexRight: number): boolean {
         return (this.string[indexLeft].toLowerCase() > this.string[indexRight].toLowerCase());
     }
+
+    swap(indexLeft: number, indexRight: number): void {
+        const letters=[...this.string];
+    }
 }
