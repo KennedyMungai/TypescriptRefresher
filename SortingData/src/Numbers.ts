@@ -2,8 +2,10 @@ import { SortData } from "./SortData";
 
 
 
-export class Numbers {
-    constructor(public number:number[]) {}
+export class Numbers extends SortData{
+    constructor(public number:number[]) {
+        super();
+    }
 
     compare(indexLeft:number, indexRight:number): boolean {
         return this.number[indexLeft] > this.number[indexRight];
