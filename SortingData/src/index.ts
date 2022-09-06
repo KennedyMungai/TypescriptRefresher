@@ -18,4 +18,4 @@ const years = dateArray.map((date) => {
 const numbersData = new Numbers(years);
 const sortData = new SortData(numbersData);
 sortData.sort();
-console.log(sortData.data);
+console.log(numbersData.number);
