@@ -12,11 +12,6 @@ export class SortData {
                 if (this.data.compare(j, j+1)) {
                     this.data.swap(j, j+1);
                 }
-
-                // String
-                if(typeof this.data === 'string'){
-                    
-                }
             }
         }
     }
