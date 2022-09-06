@@ -10,4 +10,6 @@ export class Numbers {
         this.number[indexLeft]=this.number[indexRight];
         this.number[indexRight]=leftArg;
     }
+
+    length: number=this.number.length;
 }
