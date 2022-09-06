@@ -1,5 +1,5 @@
 export class SortData {
-    constructor(public data: number[] | string) {}
+    constructor(public data:) {}
 
     sort(): void {
         const {length}=this.data;
