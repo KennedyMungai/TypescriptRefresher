@@ -5,5 +5,7 @@ class Numbers {
     constructor(number) {
         this.number = number;
     }
+    compare() {
+    }
 }
 exports.Numbers = Numbers;
