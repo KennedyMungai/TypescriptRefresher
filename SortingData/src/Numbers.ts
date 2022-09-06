@@ -11,7 +11,7 @@ export class Numbers {
         this.number[indexRight]=leftArg;
     }
 
-    length(): number{
+    get length(): number{
         return this.number.length;
     }
 }
