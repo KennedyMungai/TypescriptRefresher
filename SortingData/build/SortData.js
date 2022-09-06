@@ -1,4 +1,6 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SortData = void 0;
 class SortData {
     constructor(data) {
         this.data = data;
@@ -22,3 +24,4 @@ class SortData {
         }
     }
 }
+exports.SortData = SortData;
