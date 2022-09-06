@@ -1,6 +1,3 @@
-import { Numbers } from "./Numbers";
-
-
 interface SortingProps {
     length: number;
     compare(indexLeft:number, indexRight: number): boolean;
@@ -9,7 +6,7 @@ interface SortingProps {
 
 
 export class SortData {
-    constructor(public data: Numbers) {}
+    constructor(public data: SortingProps) {}
 
     sort(): void {
         const {length}=this.data;
