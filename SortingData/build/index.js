@@ -5,6 +5,10 @@ class SortData {
     }
     sort() {
         const { length } = this.data;
+        for (let i = 0; i < length; i++) {
+            for (let j = 0; j < length - i - i; j++) {
+            }
+        }
     }
 }
 const dateArray = [
