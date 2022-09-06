@@ -1,6 +1,11 @@
 import { Numbers } from "./Numbers";
 
 
+interface SortingProps {
+    
+}
+
+
 export class SortData {
     constructor(public data: Numbers) {}
 
