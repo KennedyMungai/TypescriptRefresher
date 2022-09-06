@@ -2,7 +2,7 @@ import { Numbers } from "./Numbers";
 
 
 export class SortData {
-    constructor(public data:) {}
+    constructor(public data: Numbers) {}
 
     sort(): void {
         const {length}=this.data;
