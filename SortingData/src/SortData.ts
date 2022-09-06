@@ -1,3 +1,6 @@
+import { Numbers } from "./Numbers";
+
+
 export class SortData {
     constructor(public data:) {}
 
