@@ -10,7 +10,7 @@ const dateArray=[
 ];
 
 
-const years = dateArray.map((date) => {
+const years: number[] = dateArray.map((date) => {
     return date.getFullYear();
 });
 
