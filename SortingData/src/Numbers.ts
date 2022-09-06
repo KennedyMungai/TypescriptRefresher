@@ -15,3 +15,5 @@ export class Numbers {
         return this.number.length;
     }
 }
+
+const number=new Numbers([5,3,8]);
