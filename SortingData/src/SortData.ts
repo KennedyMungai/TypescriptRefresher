@@ -5,7 +5,7 @@ interface SortingProps {
 }
 
 
-export class SortData {
+export abstract class SortData {
     sort(): void {
         const {length}=this;
 
