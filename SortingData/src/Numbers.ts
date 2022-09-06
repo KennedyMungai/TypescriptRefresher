@@ -6,6 +6,8 @@ export class Numbers {
     }
 
     swap(indexLeft:number, indexRight:number): void {
-
+        const leftArg=this.number[indexLeft];
+        this.number[indexLeft]=this.number[indexRight];
+        this.number[indexRight]=leftArg;
     }
 }
