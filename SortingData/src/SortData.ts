@@ -6,6 +6,8 @@ interface SortingProps {
 
 
 export abstract class SortData {
+    abstract compare(indexLeft:number, indexRight:number):boolean;
+
     sort(): void {
         const {length}=this;
 
