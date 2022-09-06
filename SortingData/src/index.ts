@@ -13,3 +13,8 @@ const dateArray=[
     new Date(2005,12,31),
     new Date(2016,5,3),
 ];
+
+
+const years = dateArray.map((date) => {
+    return date.getFullYear();
+});
