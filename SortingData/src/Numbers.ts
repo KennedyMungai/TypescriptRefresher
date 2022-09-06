@@ -1,7 +1,7 @@
 export class Numbers {
     constructor(public number:number[]) {}
 
-    compare(): boolean {
-        
+    compare(indexLeft:number, indexRight:number): boolean {
+
     }
 }
