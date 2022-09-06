@@ -3,7 +3,9 @@ import { SortData } from "./SortData";
 
 
 export class Strings extends SortData {
-    constructor(public string: string) { }
+    constructor(public string: string) {
+        super();
+    }
 
     get length(): number {
         return this.string.length;
