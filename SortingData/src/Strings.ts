@@ -11,5 +11,11 @@ export class Strings {
 
     swap(indexLeft: number, indexRight: number): void {
         const letters=[...this.string];
+
+        const leftArg=letters[indexLeft];
+        letters[indexLeft]=letters[indexRight];
+        letters[indexRight]=leftArg;
+
+        this.string=letters.join('');
     }
 }
