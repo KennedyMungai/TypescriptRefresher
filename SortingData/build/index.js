@@ -4,6 +4,7 @@ class SortData {
         this.data = data;
     }
     sort() {
+        const length = this.data.length;
     }
 }
 const dateArray = [
