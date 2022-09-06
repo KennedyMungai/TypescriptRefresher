@@ -2,7 +2,7 @@ import { SortData } from "./SortData";
 
 
 
-export class Strings {
+export class Strings extends SortData {
     constructor(public string: string) { }
 
     get length(): number {
