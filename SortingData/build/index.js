@@ -13,3 +13,4 @@ const dateArray = [
 const years = dateArray.map((date) => {
     return date.getFullYear();
 });
+const sortData = new SortData(years);
