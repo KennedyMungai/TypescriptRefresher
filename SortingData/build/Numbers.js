@@ -6,6 +6,7 @@ class Numbers {
         this.number = number;
     }
     compare(indexLeft, indexRight) {
+        return this.number[indexLeft] > this.number[indexRight];
     }
 }
 exports.Numbers = Numbers;
