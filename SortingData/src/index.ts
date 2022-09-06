@@ -1,3 +1,3 @@
 class SortData {
-    
+    data: number[];
 }
