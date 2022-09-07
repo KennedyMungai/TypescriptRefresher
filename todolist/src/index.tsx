@@ -5,4 +5,4 @@ const App=()=> {
     return <h1>Snake</h1>
 }
 
-ReactDOM.render(<App />, document.querySelector('#root'));
+ReactDOM.render(<App color="green"/>, document.querySelector('#root'));
