@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 const App=()=> {
-    return <p>Snake</p>
+    return <h1>Snake</h1>
 }
 
 ReactDOM.render(<App />, document.querySelector('#root'));
