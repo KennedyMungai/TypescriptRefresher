@@ -13,6 +13,7 @@ const App:React.FC<Props>=({color}: Props)=> {
     return (
         <div>
             <button>Plus</button>
+            {this.state.counter}
             <button>Minus</button>
         </div>
     );
