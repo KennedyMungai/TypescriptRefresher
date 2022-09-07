@@ -7,7 +7,7 @@ interface Props {
 }
 
 
-const App=()=> {
+const App:React.FC<Props>=()=> {
     return <h1>{this.props.color}</h1>
 }
 
