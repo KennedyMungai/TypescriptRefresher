@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
 
 
@@ -8,13 +8,21 @@ interface Props {
 
 
 const App:React.FC<Props>=({color}: Props)=> {
-    state={counter:0};
+    const [counter, setCounter] = useState<number>(0);
+
+    const onUp = () :void => {
+        setCounter(counter+1);
+    }
+
+    const onDown = ():void => {
+        setCounter(counter-1);
+    }
     
     return (
         <div>
-            <button onClick={this.onUp}>Plus</button>
-            {this.state.counter}
-            <button onClick={this.onDown}>Minus</button>
+            <button onClick={onUp}>Plus</button>
+            {counter}
+            <button onClick={onDown}>Minus</button>
         </div>
     );
 }
