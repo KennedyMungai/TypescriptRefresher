@@ -12,9 +12,9 @@ const App:React.FC<Props>=({color}: Props)=> {
     
     return (
         <div>
-            <button>Plus</button>
+            <button onClick={this.onUp}>Plus</button>
             {this.state.counter}
-            <button>Minus</button>
+            <button onClick={this.onDown}>Minus</button>
         </div>
     );
 }
