@@ -8,7 +8,7 @@ interface Props {
 
 
 const App:React.FC<Props>=({color}: Props)=> {
-    return <h1>{color}</h1>
+    return <h1>{color}</h1>;
 }
 
 
